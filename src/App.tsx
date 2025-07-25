@@ -146,7 +146,7 @@ const App = () => {
   };
 
   useEffect(() => {
-    let intervalId: NodeJS.Timeout | null = null;
+    let intervalId: number | null = null;
 
     const handleKeyDown = (e: KeyboardEvent) => {
       if (e.repeat) return;
